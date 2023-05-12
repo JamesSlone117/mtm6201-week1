@@ -1,10 +1,47 @@
 
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(182, 173, 173);
+}
+
 
 .wrapper {
     margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(120, 106, 106);
+    
 }
 
-.img {
-    max-width: 100px;
+h1 {
+    background-color: coral;
+    
+    padding: 8px;
+}
+
+img {
+    max-width: 150px;
     height: auto;
+    float: left;
+    margin: 10px;
+    border: 3px solid;
+}
+
+dl {
+    background-color: coral;
+    
+    clear: left;
+    margin: 2rem;
+    padding: 8px;
+}
+
+
+dt {
+    font-weight: bold;
+    
+}
+
+dd {
+    margin-left: 0;
 }
